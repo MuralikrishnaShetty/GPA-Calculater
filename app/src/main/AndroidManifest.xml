@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.markcalculater">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MarkCalculater"
+        tools:targetApi="31">
+        <activity
+            android:name=".eeeseventhsem"
+            android:exported="false" />
+        <activity
+            android:name=".eightsem"
+            android:exported="false" />
+        <activity
+            android:name=".Iseseventhsem"
+            android:exported="false" />
+        <activity
+            android:name=".sixthsem"
+            android:exported="false" />
+        <activity
+            android:name=".fifthsem"
+            android:exported="false" />
+        <activity
+            android:name=".fourthsem"
+            android:exported="false" />
+        <activity
+            android:name=".thirdsem"
+            android:exported="false" />
+        <activity
+            android:name=".firshsem_chem"
+            android:exported="false" />
+        <activity
+            android:name=".firstsemPhy"
+            android:exported="false" />
+        <activity
+            android:name=".seventhsembtn"
+            android:exported="false" />
+        <activity
+            android:name=".sgpa"
+            android:exported="false" />
+        <activity
+            android:name=".cgpa"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
